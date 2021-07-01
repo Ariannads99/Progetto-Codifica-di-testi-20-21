@@ -1,0 +1,441 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="DocumentoXSL.xsl"?>
+
+<TEI version="1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <!--Header-->
+    <teiHeader> 
+        <!--Descrizione dell'edizione digitale-->
+        <fileDesc> 
+            <titleStmt>
+                <title type="main">Prolusioni 1, pagine 17 e 18: versione elettronica</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di </resp>
+                    <name type="person" xml:id="ADS">Arianna Di Serio</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>   
+                <edition>Digital edition <date when="2021-07"> Luglio 2021</date></edition>
+                <respStmt>
+					<resp>Encoding by</resp>
+					<name type="persona" ref="#ADS">Arianna Di Serio</name>
+				</respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability><p>Available for academic research purposes only.</p></availability>
+                <date when="2021-07">Luglio 2021</date>
+            </publicationStmt>
+            <!--Descrizione della fonte originaria-->
+            <sourceDesc> 
+                <biblStruct> 
+                    <analytic>  
+                        <title level="a" xml:lang="fr">Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</title>
+                        <author>
+                            <name xml:id="FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </name>
+                        </author>
+                    </analytic>  
+                    <monogr> 
+                        <author>
+                            <name ref="#FDS">
+                                <surname>Ferdinand</surname>
+                                <forename>de Saussure</forename>
+                            </name>
+                        </author> 
+                        <editor xml:id="RE">Rudolf Engler</editor>
+                        <title level="m" xml:lang="fr">Notes de linguistique</title>              
+                        <imprint>
+                            <publisher>O. Harrassowitz</publisher>
+                            <pubPlace>Wiesbaden, Germania</pubPlace>
+                            <date from="1958" to="1974">1958-1974</date>
+                            <biblScope>353 feuillets</biblScope>   
+                        </imprint>                  
+                    </monogr>
+                    <citedRange unit="page" from="17" to="18">pp.17-18</citedRange>
+                    <ref target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0#id:1571066253?"></ref>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Università di Ginevra</institution>
+                        <repository ref="https://archives.bge-geneve.ch/">Biblioteca di Ginevra</repository>
+                        <collection ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89">Archivio Ferdinand de Saussure</collection>
+                        <idno>Ms.fr.3951/1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Le pagine fanno parte di una serie di appunti di de Saussurre scritti per le prime conferenze all'Università di Ginevra, in parte utilizzati per le prime lezioni del corso "Phonetique du grec et du latin".</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Appunti</objectType>
+                                    <material function="support">Carta</material>
+                                    <p> La carta è di colore giallo/beige, l'inchiostro è nero.</p>
+                                </support>
+                                <extent><measure unit="pages">30 + 15 + 22 pages + 1 feuillet</measure></extent>
+                                <foliation> La numerazione delle pagine è collocata in alto a sinistra, all'interno di un piccolo cerchio.</foliation>
+                                <condition>Le due pagine sono in buone condizioni fisiche, il testo è scritto a mano ma in gran parte leggibile, con diverse cancellature e/o aggiunte.</condition>    
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p> Il testo si compone di un'unica colonna, spesso con delle aggiunte a margine.</p>
+                                </layout>
+                            </layoutDesc> 
+                        </objectDesc>  
+                        <handDesc>
+                            <handNote>
+                                <p>Le pagine sono scritte a mano in corsivo da de Saussurre.</p>
+                            </handNote>
+                        </handDesc>   
+                    </physDesc>
+                    <history>
+                        <origin>Gli appunti sono stati scritti fra il <origDate>1867 e il 1920.</origDate></origin>
+                        <provenance> La maggior parte dei documenti proviene dalla casa di famiglia,
+                        rue de la Tertasse, ed è stata donata da Jacques e Raymond de Saussure alla Biblioteca di Ginevra.</provenance>
+                        <provenance> Dopo il 1966 sono state scoperte nuove carte in un gabinetto 
+                        dell'Orangerie, donate poi da Madame Bertrand de Saussure e Claude de Saussure.</provenance>
+                        <provenance> Altre carte sono state donate da Madame Christine de Saussure nel 2008.</provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl type="trascrizione e traduzione" xml:id="trad">
+                                <title level="u" type="main" xml:lang="IT">Prolusioni all'università di Ginvera</title>
+                                <title level="u" type="sub" xml:lang="IT">Prime tre conferenze</title>
+                                <ref target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Prolusioni1-new.pdf">Trascrizione e traduzione</ref>
+                            </bibl>
+                            <bibl xml:id="notes">
+                                <title level="m" type="main" xml:lang="IT">Lingua e mente sociale</title>
+                                <title level="m" type="sub" xml:lang="IT">Per una teoria delle istituzioni linguistiche a partire da Saussurre e Mead</title>
+                                <ref target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Traduzione italiana con note al testo.</ref>
+                                <author>
+                                    <name xml:id="EF">
+                                        <forename>Emanuele</forename>
+                                        <surname>Fadda</surname>
+                                    </name>
+                                </author>
+                                <editor>Bonanno Editore</editor>
+                                <date when="2006">2006</date>
+                                <biblScope>256 pagine</biblScope> 
+                                <idno type="ISBN">8877962763, 9788877962768</idno>                    
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--Descrizione della codifica-->
+        <encodingDesc> 
+            <p>Image based digital edition.</p>
+            <projectDesc>
+                <p>Il progetto prevede la codifica digitale image-based di due pagine provenienti dal manoscritto Ms.fr.3951/1 di Ferdinad de Saussurre.</p>
+            </projectDesc>
+        </encodingDesc>
+        <!--Descrizione del testo-->
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <creation>
+                <date when="1981-11">Novembre 1981</date>
+            </creation>
+            <textDesc>
+                <channel mode="ws"></channel>
+                <constitution type="unknown"/>
+                <derivation type="original"/>
+                <domain type="education, public"></domain>
+                <factuality type="fact"/>
+                <interaction type="none"/>
+                <preparedness type="none"/>
+                <purpose type="inform"/>
+            </textDesc>
+        </profileDesc>     
+    </teiHeader>
+
+    <!--Corpo-->
+    <text>
+        <body>
+            <div xml:id="pericope1" facs="zona1" type="pericope">
+                <gap reason="sampling"></gap>
+                <!--Pagina17-->
+                <pb n="17" xml:id="page17" facs="#pagina17"></pb>
+                <head xml:id="numPage" facs="#numb17" rend="circled" place="margin">17</head>
+                <lb n="1"></lb>
+                <ab>par où la <term target="#langue">langue</term> se trouve mêlée <unclear reason="illegible" resp="#ADS"><del rend="overstrike" hand="author" xml:id="canc1" facs="#del1"></del></unclear> à la
+                <lb n="2"></lb> 
+                vie des peuples, <subst xml:id="sost1" facs="#subst1" resp="#ADS"><del rend="overstrike" hand="author"></del><add place="supralinear" hand="author">à la vie <choice xml:id="abbr1" facs="#choice1" resp="#ADS" cert="high"><abbr type="suspension">politiq<am>.</am></abbr><expan>politiq<ex>ue</ex></expan></choice>, sociale, <expan xml:id="expan" facs="#abbrev">littéraire</expan></add></subst>, ne sont pas<supplied reason="omitted-in-original" resp="#RE">,</supplied> je le 
+                <lb n="3"></lb>
+                répète<supplied reason="omitted-in-original" resp="#RE">,</supplied> ou ne sont que de temps à autre ce qu'on 
+                <lb n="4"></lb>
+                peut appeler la <term target="#vie_dela_langue">vie de la langue</term> elle-même.
+                <lb n="5"></lb></ab> 
+            </div>
+            <div xml:id="pericope2" facs="#zona2" type="pericope">
+                <space dim="horizontal" xml:id="spazio1" facs="#space1"></space><ab>C'est à <choice xml:id="abbr2" facs="#choice2" resp="#ADS" cert="high"><abbr type="brevigraph">1</abbr><expan>un</expan></choice> autre <term>point de vue</term> par conséquent que la
+                <lb n="6"></lb>
+                <term>science du langage</term> revendique le titre de <term>science 
+                <lb n="7"></lb>
+                <choice xml:id="abbr3" facs="#choice3" resp="#ADS" cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice></term>.</ab>
+            </div>
+            <div xml:id="pericope3" facs="#zona3" type="pericope">
+                <ab><pc type="dash">-</pc>C'est que <expan xml:id="expan2" facs="#abbrev2">toute</expan> <term  target="#langue">langue</term><del rend="overstrike" hand="author" xml:id="canc2" facs="#del2" resp="#ADS" cert="high">a une histoire</del>, en 
+                <lb n="8"></lb>
+                elle-même a une <term target="#histoire">histoire</term> qui se déroule <w>perpé<pc force="weak">-</pc>
+                <lb n="9" rend="double-stroke" break="no"></lb>
+                tuellement</w>, qui est faite d'une succession d'événements
+                <lb n="10"></lb> 
+                <term rend="underline" target="#linguistique">linguistiques</term>, <unclear reason="illegible" resp="#ADS"><subst xml:id="sost2" facs="#subst2"><del rend="overstrike" hand="author"></del><add place="supralinear" hand="author">lesquels</add></subst></unclear> n'ont point eu de <w>reten<pc force="weak">-</pc>
+                <lb n="11" rend="double-stroke" break="no"></lb>
+                tissement</w> au-dehors <unclear reason="illegible" resp="#ADS" cert="medium"><del rend="overstrike" hand="author" xml:id="canc3" facs="#del3" cert="medium">de même qu'ils sout 
+                <lb n="12"></lb>
+                complètement independants</del></unclear> et n'ont jamais été
+                <lb n="13"></lb> 
+                inscrits par le célèbre burin de l'<term  target="#histoire">histoire</term> <pc type="semicolon">;</pc></ab></div> 
+            <div xml:id="pericope4" facs="#zona4" type="pericope">
+                <ab>de même 
+                <lb n="14"></lb>
+                qu'à leur tour ils sont complètement indépendants 
+                <lb n="15"></lb>
+                en général de ce qui se passe au-dehors.</ab></div>
+            <div xml:id="pericope5" facs="#zona5" type="pericope">
+                <ab><expan xml:id="expan3" facs="#abbrev3">Toute</expan> <term  target="#langue">langue</term>
+                <lb n="16"></lb>
+                présente, <add place="margin" hand="author" xml:id="aggiunta1" facs="add1" resp="#ADS">un peu comme ces grandes moraines qu'on voit au bas de nos glaciers</add><supplied reason="omitted-in-original" resp="#RE">,</supplied> le tableau <unclear reason="illegible" resp="#ADS"><del xml:id="canc4" facs="del4" rend="overstrike" hand="author"></del></unclear>
+                d'un <unclear reason="illegible" resp="#ADS"><del xml:id="canc5" facs="#del5" hand="author" rend="overstrike"></del></unclear>prodigieux amas de choses charriées
+                <lb n="17"></lb>
+                à travers les siècles<supplied reason="omitted-in-original" resp="#RE">,</supplied> mais de <del rend="overstrike" hand="author" xml:id="canc6" facs="del6" resp="#ADS" cert="high"><hi rend="underline">date tres differente</hi>,
+                <lb n="18"></lb>
+                de même insistos sur en puiut, de même choses qui</del>
+                <lb n="19"></lb>
+                choses qui <hi rend="underline">ont une date</hi>, et <hi rend="underline">des dates très <term>différentes</term></hi>, 
+                <lb n="20"></lb>
+                de même que l'on peut reconnaître dans les dépôts <subst xml:id="sost3" facs="#subst3" resp="#ADS"><del rend="overstrike" hand="author">
+                <lb n="21"></lb>
+                </del><add place="margin" hand="author">glaciaires</add></subst> que je comparais que tel morceau de granit 
+                <lb n="22"></lb>
+                <del rend="overstrike" hand="author" xml:id="canc7" facs="del7" resp="#ADS"></del> vient d'<choice xml:id="abbr4" facs="#choice4" resp="#ADS"><abbr type="brevigraph" cert="high">1</abbr><expan>une</expan></choice> <choice xml:id="abbr5" facs="#choice5" resp="#ADS" cert="high"><abbr type="suspension">dist<am>.</am></abbr><expan>dist<ex>ance</ex></expan></choice> de <w><choice xml:id="abbr6" facs="#choice6" resp="#ADS" cert="medium"><abbr type="brevigraph">+</abbr><expan>plu</expan></choice>si<pc force="weak">-</pc>
+                <lb n="23" rend="stroke" break="no"></lb>
+                eurs</w> lieues <add place="margin" hand="author" xml:id="aggiunta2" facs="add2">des <choice xml:id="abbr7" facs="choice7" resp="#ADS"><abbr type="brevigraph" cert="medium">+</abbr><expan>plus</expan></choice> hauts sommets de la chaîne,</add> pendant que tel bloc de <unclear reason="illegible" resp="#ADS"><subst xml:id="sost4" facs="#subst4"><del rend="overstrike" hand="author"></del><add place="supralinear" hand="author"><choice resp="#ADS" cert="medium"><abbr>IV</abbr><expan>quartz?</expan></choice></add></subst></unclear> remonte
+                <lb n="24"></lb> 
+                à peine aux <choice xml:id="abbr8" facs="#choice8" resp="#ADS" cert="medium"><abbr rend="underline" type="brevigraph">1er</abbr><expan>premiers</expan></choice> contreforts de la montagne<pc type="suspension points">...</pc></ab>
+            </div>
+            <div xml:id="pericope6" facs="#zona6" type="pericope">
+                <ab>Donc <hi rend="underline">la <term  target="#langue">langue</term>
+                <lb n="25"></lb>
+                a une <term target="#histoire">histoire</term></hi>, c'est un caractère constant.<unclear reason="illegible" resp="#ADS"><del rend="understrike" hand="author" xml:id="canc9" facs="#del9"></del></unclear>Est-il 
+                <lb n="26"></lb>
+                décisif <add place="margin" hand="author" xml:id="aggiunta3" facs="#add3" resp="#ADS">à lui seul</add> pour ranger la <term>science du langage</term> <expan xml:id="expan4" facs="#abbrev4">dans</expan> les <term>sciences 
+                <lb n="27"></lb>
+                <choice xml:id="abbr9" facs="choice9" resp="#ADS" cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ues</ex></expan></choice></term> <del rend="overstrike" hand="author" xml:id="canc10" facs="#del10" resp="#ADS" cert="high"> <supplied reason="omitted-in-original" resp="#RE"><pc type="interrogative">?</pc></supplied>Non</del> Assurément non.</ab></div>
+            <div xml:id="pericope7" facs="#zona7.1" type="pericope">
+                <div xml:id="primaParte">
+                    <ab> La Terre par <expan xml:id="expan5" facs="#abbrev5">exemple</expan> a une 
+                    <lb n="28"></lb>
+                    <term target="#histoire">histoire</term>, qui est racontée par la géologie, d'où</ab>
+                </div>
+            <!--Pagina 18-->
+                <div xml:id="secondaParte" facs="zona7.2">
+                    <pb n="18" xml:id="page18" facs="#pagina18"></pb>
+                    <head xml:id="numPage2" facs="#numb18" rend="circled" place="margin">18</head>
+                    <lb n="1"></lb>
+                    <ab>il ne suit pas que la <choice xml:id="abbr10" facs="choice10" resp="#ADS" cert="high"><abbr type="suspension">geolog<am>.</am></abbr><expan>géolog<ex>ie</ex></expan></choice> soit une <term rend="underline">science
+                    <lb n="2"></lb>
+                    historique</term>, au moins au sens étroit et précis
+                    <lb n="3"></lb> 
+                    que nous donnons à ce <term target="#terme">terme</term>.</ab>
+                </div>
+            </div>
+            <div xml:id="pericope8" facs="#zona8" type="pericope">
+                <ab><choice xml:id="correzione1" facs="correz1"><sic>q</sic><corr>Q</corr></choice>uelle est donc la 
+                <lb n="4"></lb>    
+                <choice xml:id="abbr11" facs="#choice11" resp="#ADS" cert="medium"><abbr>2a</abbr><expan>seconde</expan></choice> condition<unclear reason="illegible" resp="#ADS"><del rend="overstrike" hand="author" xml:id="canc11" facs="#del11"></del></unclear> impliquée par le <term target="#mot">mot</term> de <term>science 
+                <lb n="5"></lb>
+                <choice xml:id="abbr12" facs="#choice12" resp="#ADS" cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice></term><supplied reason="omitted-in-original" resp="#RE"><pc type="interrogative">?</pc></supplied> <pc type="dash">-</pc> C'est que l'<term target="#objet">objet</term> qui fait la <term>matière</term> de 
+                <lb n="6"></lb>
+                l'<term target="#histoire">histoire</term><add place="margin" xml:id="aggiunta4" facs="#add4" resp="#ADS"> -<expan xml:id="expan6" facs="#abbrev6">par exemple</expan> l'art, la religion, le costume, etc. - </add>représente, dans un <term target="#sens">sens</term> quelconque, des
+                <lb n="7"></lb>
+                <term rend ="underline">actes humains</term>, régis par la <term>volonté</term> et l'<term>intelligence 
+                <lb n="8"></lb>
+                humaines</term>, <pc type="dash">-</pc> et qui d'ailleurs doivent être tels
+                <lb n="9"></lb> 
+                qu'ils <add place="overline" hand="author" xml:id="aggiunta5" facs="#add5" resp="#ADS">n'</add>intéressent pas seulement l'<term target="#individu">individu</term> mais <del rend="overstrike" hand="author" xml:id="canc12" facs="#del12" resp="#ADS" cert="medium">une</del>
+                <lb n="10"></lb> 
+                la <term target="#collectivite">collectivité</term>.<unclear reason="illegible" resp="#ADS"><del rend="overstrike" hand="author" xml:id="canc13" facs="#del13"></del></unclear>
+                <lb n="11"></lb></ab>
+                </div>
+            <div xml:id="pericope9" facs="#zona9" type="pericope">
+                <space xml:id="spazio2" facs="space2"></space><ab>Les <term>faits linguistiques</term> peuvent-ils passer 
+                <lb n="12"></lb>
+                pour être le résultat d'<term>actes <del rend="overstrike" hand="author" xml:id="canc14" facs="#del14"></del>
+                <lb n="13"></lb>   
+                de notre volonté</term><pc type="interrogative">?</pc> Telle est donc la question. La 
+                <lb n="14"></lb>
+                <term>science du langage</term>, actuelle, yrépond affirmativement. 
+                <lb n="15"></lb></ab>
+                </div>
+            <div xml:id="pericope10" facs="#zona10" type="pericope">
+                <ab>Seulement il faut ajouter aussitôt <add place="margin" hand="author" xml:id="aggiunta6" facs="#add6" resp="#ADS">qu'il y a beaucoup de <term target="#degre">degrés</term> connus, comme 
+                nous savons, dans la <term>volonté consciente</term> ou <term>inconsciente<supplied reason="omitted-in-original" resp="#RE"><pc type="semicolon">;</pc></supplied></term></add><subst xml:id="sost5" facs="#subst5" resp="#ADS"><del rend="overstrike" hand="author"></del><add> or</add></subst><supplied reason="omitted-in-original" resp="#RE">,</supplied> de tous 
+                <lb n="16"></lb>
+                les <term target="#acte">actes</term> qu'on pourrait mettre en parallèle, 
+                <lb n="17"></lb>
+                l'<term target="#acte_linguistique">acte linguistique</term>, si je puis le nommer ainsi, <subst xml:id="sost6" facs="#subst6" resp="#ADS"><del rend="overstrike" hand="author"></del><add place="supralinear" hand="author">a ce <term target="#caractere">caractère</term> d'être</add></subst>  
+                <lb n="18"></lb>
+                le moins <ref target="#reflechi">réfléchi</ref>, le moins prémédité, <unclear reason ="illegible" resp="#ADS" cert="medium"><del rend="overstrike" hand="author" xml:id="canc15" facs="#del15" cert="medium">le
+                <lb n="19"></lb>
+                plus machinal, en mir temps que le</del></unclear>en même
+                <lb n="20"></lb> 
+                temps que le plus impersonnel de tous. </ab></div>
+            <div xml:id="pericope11" facs="#zona11" type="pericope">
+                <ab>Il y a 
+                <lb n="21"></lb>
+                là une <term>différence de degré</term>, qui va si loin qu'elle
+                <lb n="22"></lb> 
+                a longtemps donné l'illusion d'<choice xml:id="abbr13" facs="choice13" resp="#ADS" cert="high"><abbr type="brevigraph">1</abbr><expan>une</expan></choice><term> différence <w>es<pc force="weak">-</pc>
+                <lb n="23" rend="stroke" break="no"></lb>
+                <pc type="double-stroke">-</pc>sentielle</w></term>, mais qui n'est en réalité qu'<choice xml:id="abbr14" facs="choice14" resp="#ADS" cert="high"><abbr type="brevigraph">1</abbr><expan>une</expan></choice> <term><choice xml:id="abbr15" facs="choice15" resp="#ADS"><abbr type="suspension" cert="high">diff<am>.</am></abbr><expan>diff<ex>érence</ex></expan></choice> de degrés</term>.</ab></div>
+            <gap reason="sampling"></gap>
+        </body>
+
+        <!--Glosse sui termini tecnici presenti-->
+        <back>
+            <div type="appendix">
+                <ab>
+                    <gloss xml:lang="fr" xml:id="langue"><ref target = "https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Idiome, langue déterminée quelconque.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="histoire"><ref target = "https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">En linguistique interne: diachronie, linguistique évolutive.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="terme"><ref target = "https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Forme impliquée dans un rapport synchronique ou diachronique; unité impliquée dans une opposition synchronique.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="mot"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Unité complexe mentale et physiologique de la langue; membre de la phrase, unité centrale, la plus fortement délimitée qui soit; fondée sur la valeur et sur l’identité par la valeur.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="objet"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Objet désigné opposé à nom, chose, idée extralinguistique.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="sens"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Signification telle qu&apos;elle est représentée par le signifié mais qui dépend en dernière analyse d&apos;un rapport de valeurs entre termes; voir signification.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="individu"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Membre de l&apos;espèce humaine.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="degre"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Chacun des états, dans une série d&apos;états.</ref></gloss> 
+                    <gloss xml:lang="fr" xml:id="acte"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Action volontaire.</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="acte_linguistique"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">De tous les actes (humains) qu&apos;on pourrait mettre en parallèle, l&apos;acte linguistique, si je puis le nommer ainsi, a ce caractère d&apos;être le moins réfléchi, le moins prémédité, en même temps que le plus impersonnel de tous.</ref></gloss> 
+                    <gloss xml:lang="fr" xml:id="caractere"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Élément différentiel. La notion est synchronique</ref></gloss>
+                    <gloss xml:lang="fr" xml:id="linguistique"><ref target ="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue</ref></gloss>
+                    <gloss xml:lang="IT" xml:id="vie_della_langue"><ref target ="notes">Con ‘vita’ si deve intendere la peculiare forma di storicità,di esistenza storica della lingua.</ref></gloss>
+                    <gloss xml:lang="IT" xml:id="collectivite"><ref target ="notes">La definizione di storia-vita si fa qui completa: si tratta di una successione di atti umani, governati dalle “operazioni dell’istinto umano applicate alla lingua</ref></gloss>
+                    <gloss xml:lang="IT" xml:id="reflechi"><ref target ="notes">Riflessivo qui significa soggetto a riflessione.</ref></gloss>
+                </ab>
+            </div>
+        </back>
+    </text>
+
+    <!--Collegamento testo e traduzione-->
+    <text>
+        <body>
+            <p>
+                <ref xml:id="tr1" target="#pericope1">per cui la lingua si trova frammischiata alla vita delle popolazioni, alla vita politica, sociale, letteraria, non sono, lo ripeto, o non sono che di tanto in tanto ciò che si può chiamare la vita della lingua medesima.</ref>   
+                <ref xml:id="tr2" target="#pericope2">Di conseguenza, è da un altro punto di vista che la scienza del linguaggio rivendica il titolo di scienza storica.</ref>
+                <ref xml:id="tr3" target="#pericope3">Il fatto è che ogni lingua in sé ha una storia che si snoda eternamente, la quale è fatta d’una successione di avvenimenti linguistici, che non hanno avuto alcuna risonanza esterna, e non sono mai stati incisi dal famoso bulino della storia;</ref>
+                <ref xml:id="tr4" target="#pericope4">e a loro volta sono ugualmente indipendenti, in generale, da ciò che succede all’esterno.</ref>
+                <ref xml:id="tr5" target="#pericope5">Ogni lingua presenta, un po’ come quelle grandi morene che si vedono al di sotto ai nostri ghiacciai, l’immagine di un prodigioso ammasso di cose trasportate attraverso i secoli, ma di cose che hanno una data, e date molto diverse, così come si può riconoscere nei depositi dei ghiacciai con cui facevo il paragone che quel tal pezzo di granito viene da una distanza di molte leghe, dalle cime più alte della catena, mentre quel tale blocco di quarzo si è staccato da quelli che sono appena i primi contrafforti della montagna…</ref>
+                <ref xml:id="tr6" target="#pericope6">Dunque la lingua ha una storia, è un carattere costante. È decisivo, da solo, per poter classificare la scienza del linguaggio nel novero delle scienze storiche? Sicuramente no.</ref>
+                <ref xml:id="tr71" target="#primaParte">La Terra, per esempio, ha una storia, che è raccontata dalla geologia, dal</ref>
+                <ref xml:id="tr72" target="#secondaParte">che non segue però che la geologia sia una scienza storica, per lo meno nel senso stretto e preciso che noi conferiamo a questo termine.</ref>
+                <ref xml:id="tr8" target="#pericope8">Qual è dunque la seconda condizione implicata dall’espressione ‘scienza storica’? Si tratta del fatto che l’oggetto che fa la materia della storia – per esempio l’arte, la religione, l’abbigliamento, ecc. – rappresenta, in un senso qualsiasi, degli atti umani, governati dalla volontà e dall’intelligenza umane – e che d’altronde devono essere tali da non interessare solo l’individuo, ma la collettività.</ref>
+                <ref xml:id="tr9" target="#pericope9">I fatti linguistici possono passare per essere il risultato di atti della nostra volontà? Questa è dunque la questione. La scienza del linguaggioattuale vi risponde affermativamente.</ref>
+                <ref xml:id="tr10" target="#pericope10">Soltanto, bisogna aggiungere anche che ci sono molti gradi conosciuti, come sappiamo, nella volontà cosciente e incosciente; ora, di tutti gli atti che si potrebbero mettere in parallelo, l’atto linguistico, se posso chiamarlo così, ha questo carattere d’essere il meno riflessivo, il meno premeditato, e al contempo il più impersonale di tutti.</ref>
+                <ref xml:id="tr11" target="#pericope11">C’è una differenza di grado, così spinta da aver dato l’illusione d’una differenza essenziale, ma che in realtà è solo una differenza di gradi.</ref>
+            </p>
+        </body>
+    </text>
+
+    <!--Collegamento testo e immagini-->
+    <facsimile>
+        <surface xml:id="pagina17" start="#page17" ulx="0" uly="0" lrx="589" lry="750">
+            <figure>
+                <graphic url="Pagina 17.png"/>
+                <figDesc>Pagina 17 del manoscritto</figDesc>
+                <head>Pagina 17</head>
+            </figure>
+            <zone xml:id="numb17" start="#numPage" ulx="57" uly="58" lrx="115" lry="101"></zone>
+            <!--Pericopi-->
+            <zone xml:id="zona1" start="#pericope1" ulx="122" uly="61" lrx="523" lry="167"></zone>
+            <zone xml:id="zona2" start="#pericope2" ulx="130" uly="178" lrx="516" lry="239"></zone>
+            <zone xml:id="zona3" start="#pericope3" ulx="129" uly="266" lrx="515" lry="357"></zone>
+            <zone xml:id="zona4" start="#pericope4" ulx="131" uly="359" lrx="509" lry="398"></zone>
+            <zone xml:id="zona5" start="#pericope5" ulx="129" uly="400" lrx="533" lry="600"></zone>
+            <zone xml:id="zona6" start="#pericope6" ulx="151" uly="594" lrx="537" lry="666"></zone>
+            <zone xml:id="zona7.1" start="#primaParte" ulx="157" uly="663" lrx="534" lry="691"></zone>
+            <!--Sostituzioni, cancellazioni e aggiunte-->
+            <zone xml:id="del1" start="#canc1" ulx="410" uly="58" lrx="477" lry="97"></zone>
+            <zone xml:id="subst1" start="#sost1" ulx="272" uly="95" lrx="440" lry="117"></zone>
+            <zone xml:id="del2" start="#canc2" ulx="362" uly="221" lrx="480" lry="238"></zone>
+            <zone xml:id="subst2" start="#sost2" ulx="235" uly="287" lrx="330" lry="303"></zone>
+            <zone xml:id="del3" start="#canc3" ulx="127" uly="311" lrx="509" lry="350"></zone>
+            <zone xml:id="add1" start="#aggiunta1" ulx="51" uly="426" lrx="145" lry="522"></zone>
+            <zone xml:id="del4" start="#canc4" ulx="138" uly="421" lrx="162" lry="435"></zone>
+            <zone xml:id="del5" start="#canc5" ulx="189" uly="419" lrx="244" lry="431"></zone>
+            <zone xml:id="del6" start="#canc6" ulx="140" uly="442" lrx="517" lry="467"></zone>
+            <zone xml:id="subst3" start="#sost3" ulx="97" uly="553" lrx="189" lry="546"></zone>
+            <zone xml:id="del7" start="#canc7" ulx="151" uly="551" lrx="363" lry="557"></zone>
+            <zone xml:id="del8" start="#canc8" ulx="151" uly="551" lrx="363" lry="557"></zone>
+            <zone xml:id="add2" start="#aggiunta2" ulx="51" uly="576" lrx="145" lry="616"></zone>
+            <zone xml:id="subst4" start="#sost4" ulx="343" uly="557" lrx="471" lry="571"></zone>
+            <zone xml:id="del9" start="#canc9" ulx="435" uly="602" lrx="484" lry="615"></zone>
+            <zone xml:id="add3" start="#aggiunta3" ulx="73" uly="642" lrx="146" lry="667"></zone>
+            <zone xml:id="del10" start="#canc10" ulx="216" uly="658" lrx="259" lry="679"></zone>
+            <!--Abbreviazioni-->
+            <zone xml:id="choice1" start="#abbr1" ulx="323" uly="92" lrx="368" lry="105"></zone>
+            <zone xml:id="abbrev" start="#expan" ulx="410" uly="92" lrx="442" lry="104"></zone>
+            <zone xml:id="choice2" start="#abbr2" ulx="233" uly="181" lrx="242" lry="194"></zone>
+            <zone xml:id="choice3" start="#abbr3" ulx="134" uly="266" lrx="200" lry="246"></zone>
+            <zone xml:id="abbrev2" start="#expan2" ulx="286" uly="220" lrx="306" lry="240"></zone>
+            <zone xml:id="abbrev3" start="#expan3" ulx="416" uly="382" lrx="447" lry="395"></zone>
+            <zone xml:id="choice4" start="#abbr4" ulx="394" uly="531" lrx="415" lry="551"></zone>
+            <zone xml:id="choice5" start="#abbr5" ulx="417" uly="531" lrx="449" lry="548"></zone>
+            <zone xml:id="choice6" start="#abbr6" ulx="453" uly="531" lrx="497" lry="550"></zone>
+            <zone xml:id="choice7" start="#abbr7" ulx="75" uly="581" lrx="89" lry="594"></zone>
+            <zone xml:id="choice8" start="#abbr8" ulx="244" uly="588" lrx="267" lry="603"></zone>
+            <zone xml:id="choice9" start="#abbr9" ulx="158" uly="664" lrx="215" lry="683"></zone>
+            <zone xml:id="abbrev4" start="#expan4" ulx="449" uly="622" lrx="462" lry="641"></zone>
+            <zone xml:id="abbrev5" start="#expan5" ulx="465" uly="649" lrx="488" lry="665"></zone>
+            <!--Spazi-->
+            <zone xml:id="space1" start="#spazio1" ulx="135" uly="180" lrx="180" lry="193"></zone>
+        </surface>
+
+        <surface xml:id="pagina18" start="#page18" ulx="0" uly="0" lrx="594" lry="750">
+            <figure>
+                <graphic url="Pagina 18.png"/>
+                <figDesc>Pagina 18 del manoscritto</figDesc>
+                <head>Pagina 18</head>
+            </figure>
+            <zone xml:id="numb18" start="#numPage2" ulx="53" uly="46" lrx="108" lry="88"></zone>
+            <!--Pericopi-->
+            <zone xml:id="zona7.2" start="#secondaParte" ulx="115" uly="68" lrx="531" lry="146"></zone>
+            <zone xml:id="zona8" start="#pericope8" ulx="47" uly="127" lrx="537" lry="306"></zone>
+            <zone xml:id="zona9" start="#pericope8" ulx="110" uly="324" lrx="520" lry="408"></zone>
+            <zone xml:id="zona10" start="#pericope8" ulx="47" uly="420" lrx="556" lry="558"></zone>
+            <zone xml:id="zona11" start="#pericope8" ulx="141" uly="536" lrx="541" lry="649"></zone>
+            <!--Sostituzioni, cancellazioni e aggiunte-->
+            <zone xml:id="del11" start="#canc11" ulx="231" uly="147" lrx="276" lry="170"></zone>
+            <zone xml:id="add4" start="#aggiunta4" ulx="47" uly="205" lrx="120" lry="282"></zone>
+            <zone xml:id="add5" start="#aggiunta5" ulx="171" uly="273" lrx="180" lry="287"></zone>
+            <zone xml:id="del12" start="#canc12" ulx="467" uly="261" lrx="502" lry="279"></zone>
+            <zone xml:id="del13" start="#canc13" ulx="226" uly="298" lrx="291" lry="313"></zone>
+            <zone xml:id="del14" start="#canc14" ulx="354" uly="344" lrx="492" lry="358"></zone>
+            <zone xml:id="add6" start="#aggiunta6" ulx="49" uly="426" lrx="123" lry="549"></zone>
+            <zone xml:id="subst5" start="#sost5" ulx="423" uly="407" lrx="456" lry="428"></zone>
+            <zone xml:id="subst6" start="#sost6" ulx="447" uly="450" lrx="555" lry="472"></zone>
+            <zone xml:id="del15" start="#canc15" ulx="134" uly="490" lrx="524" lry="538"></zone>
+            <!--Abbreviazioni-->
+            <zone xml:id="choice10" start="#abbr10" ulx="318" uly="67" lrx="366" lry="96"></zone>
+            <zone xml:id="correz1" start="#correzione1" ulx="356" uly="122" lrx="371" lry="145"></zone>
+            <zone xml:id="choice11" start="#abbr11" ulx="131" uly="153" lrx="158" lry="172"></zone>
+            <zone xml:id="choice12" start="#abbr12" ulx="131" uly="175" lrx="199" lry="198"></zone>
+            <zone xml:id="abbrev6" start="#expan6" ulx="51" uly="204" lrx="96" lry="219"></zone>
+            <zone xml:id="choice13" start="#abbr13" ulx="375" uly="578" lrx="401" lry="597"></zone>
+            <zone xml:id="choice14" start="#abbr14" ulx="412" uly="603" lrx="440" lry="624"></zone>
+            <zone xml:id="choice15" start="#abbr15" ulx="444" uly="597" lrx="471" lry="618"></zone>
+            <!--Spazi-->
+            <zone xml:id="space2" start="#spazio2" ulx="128" uly="330" lrx="181" lry="346"></zone>
+        </surface>
+    </facsimile>
+
+</TEI>
